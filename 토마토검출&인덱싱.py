@@ -8,7 +8,7 @@ device = torch.device("cuda:0" if torch.cuda.is_available() else "cpu")
 img_path = "image/sample_1.png"
 
 # YOLO 모델 로드
-yolo_model = YOLO("tomato_yolo.pt")
+yolo_model = YOLO("model/tomato_yolo.pt")
 
 # YOLO 모델로 객체 탐지 (신뢰도 조정)
 results = yolo_model.predict(img_path, imgsz=640, conf=0.5, save=False, show=False)  # show=False로 설정 후, 별도로 처리
