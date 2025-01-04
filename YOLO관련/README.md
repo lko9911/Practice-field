@@ -18,5 +18,5 @@
 ### 5. 라벨링 결과는 Layer 탭으로 확인할 수 있어요 !
 ![스크린샷 2025-01-04 101449](https://github.com/user-attachments/assets/36119e91-1805-4f35-aff9-fd2489ac667f)
 
-### 6. 마지막으로 녹색인 딸기를 imature strawberry로, 빨간색 딸기혹은 병충해 딸기는 strawberry로 두면 돼요 !)
+### 6. 마지막으로 녹색인 딸기를 imature strawberry로, 빨간색 딸기 혹은 병충해 딸기는 strawberry로 두면 돼요 !)
 ![스크린샷 2025-01-04 101957](https://github.com/user-attachments/assets/f4ff9bb1-5224-4ab2-a714-5f6e28ca1a7e)
