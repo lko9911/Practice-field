@@ -33,7 +33,7 @@
 
 <pre><code>results = model.train(data='/content/Strawberry_segmentation-2/data.yaml', 
   epochs=100, imgsz=640, batch=8)</code></pre>
-<h4>여기서 epochs는 학습 횟수를 의미하는데 A100 GPU가 아니면 시간이 매우 오래 걸려서 10 ~ 20으로 설정을 바꾸시는걸 추천 드려요 ! <br><br> 다음으로 전체 코드를 실행시켜주면 학습합니다. 아래의 구글 마운틴 코드는 따로 구글 드라이브에 저장하는 코드입니다.<br><br>
+<h4>여기서 epochs는 학습 횟수를 의미하는데 A100 GPU가 아니면 시간이 매우 오래 걸려서 10 ~ 20으로 설정을 바꾸시는걸 추천 드려요 ! <br><br> 다음으로 전체 코드를 실행시켜주면 학습합니다. 아래의 구글 마운틴 코드는 재학습 결과를 따로 구글 드라이브에 저장하는 코드입니다.<br><br>
 
 <pre><code>from google.colab import drive
 drive.mount('/content/drive')</code></pre>
@@ -59,3 +59,5 @@ for filename in os.listdir(source_path):
     file_path = os.path.join(source_path, filename)
     if os.path.isfile(file_path) or os.path.isdir(file_path):
         shutil.move(file_path, destination_path)('/content/drive')</code></pre>
+
+<h4> runs/train/weights 에 있는 pt 파일이 최종 YOLO 파일이고 보통은 best.pt를 사용합니다.
